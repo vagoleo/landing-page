@@ -5,4 +5,4 @@ No Frameworks or dependencies.
 
 Slider from SplideJS.
 
-Designed by Nur Praditya https://nurpraditya.com/, check out his work on Dribble https://nurpraditya.com/
+Designed by Nur Praditya https://nurpraditya.com/, check out his work on Dribble(https://nurpraditya.com/)
