@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/css/splide-core.min.css">
+    <link rel="stylesheet" href="./main.css">
+    
+    <title>Arch move</title>
+</head>
+<body>
+   
+    <header>
+        <div class="container-lg flex a-center j-between">
+            <a href="#"><img src="./Assets/logo-arch.svg" alt="Logo"></a>
+            <div class="header-menu flex a-center d-col" id="header-menu" aria-expanded="false">
+                <nav>
+                    <ul class="clean flex a-center d-col" role="list" aria-label="Primary Navigation">
+                        <li><a class="menu-link" href="">Design Gallery</a></li>
+                        <li><a class="menu-link" href="">List of Architect</a></li>
+                        <li><a class="menu-link" href="">Articles</a></li>
+                        <li><a class="menu-link" href="">How it Works</a></li>
+                    </ul>
+                </nav>
+                <a class="menu-link" href="#">Sign In</a>
+                <a class="btn primary sm" href="#">Sign Up</a>
+            </div>
+            
+            <button class="menu-btn" id='menu-btn' aria-controls="header-menu">
+                <span class="sr-only">Menu</span>
+                <svg class="menu-open" aria-label="Hamburger Icon" xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                    <path d="M0 7H14V5H0V7ZM0 12H14V10H0V12ZM0 0V2H14V0H0Z" fill="currentColor"/>
+                </svg>
+                <svg class="menu-close" aria-label="Times Icon" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 1.70909L7.70909 6L12 10.2909L10.2909 12L6 7.72121L1.72121 12L0 10.2788L4.27879 6L0 1.72121L1.72121 0L6 4.27879L10.2909 0L12 1.70909Z" fill="currentColor"/>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="container">
+                <h1>Build Your <br> Dream <strong>House</strong></h1>
+                <div class="columns-wrapper" style="--gap: 55px;">
+                    <div class="col col-4">
+                        <p>The first and most trusted marketplace of design & build house in The World. 100% guaranteed Build safe, comfortable and transparent with a project management for the best result</p>
+                        <div class="cta-wrapper">
+                            <a href="#" class="btn primary">FREE CONSULTATION</a>
+                        </div>
+                    </div>
+                    <div class="col col-8">
+                        <img src="./Assets/Hero-picture.png" alt="Minimalistic white room with a desk, a computer and a couple of chairs.">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="overflow-splide section-2">
+            <div class="container">
+                <div class="columns-wrapper">
+                    <div class="col-4"></div>
+                    <h2 class="col-8">Build professional <br> valuable room for you</h2>
+                </div>
+                
+                <div class="splide flex d-col" id="splide-section2">
+                    <div class="splide__arrows splide__arrows--ltr">
+                        <button class="splide__arrow splide__arrow--prev" type="button" aria-label="Go to last slide" aria-controls="splide-section2-track">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" viewBox="0 0 16 14" fill="none">
+                                <path d="M16 8V6H4L8 2L7 0L0 7L7 14L8 12L4 8H16Z" fill="currentColor"/>
+                            </svg>
+                        </button>
+                        <button class="splide__arrow splide__arrow--next" type="button" aria-label="Next slide" aria-controls="splide-section2-track">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" viewBox="0 0 16 14" fill="none">
+                                <path d="M0 8V6H12L8 2L9 0L16 7L9 14L8 12L12 8H0Z" fill="currentColor"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                          <li class="splide__slide"><img src="./Assets/img-01.jpg" alt="Slider image" loading="lazy"></li>
+                          <li class="splide__slide"><img src="./Assets/img-02.jpg" alt="Slider image" loading="lazy"></li>
+                          <li class="splide__slide"><img src="./Assets/img-03.jpg" alt="Slider image" loading="lazy"></li>
+                          <li class="splide__slide"><img src="./Assets/img-04.jpg" alt="Slider image" loading="lazy"></li>
+                          <li class="splide__slide"><img src="./Assets/img-01.jpg" alt="Slider image" loading="lazy"></li>
+                          <li class="splide__slide"><img src="./Assets/img-02.jpg" alt="Slider image" loading="lazy"></li>
+                          <li class="splide__slide"><img src="./Assets/img-03.jpg" alt="Slider image" loading="lazy"></li>
+                          <li class="splide__slide"><img src="./Assets/img-04.jpg" alt="Slider image" loading="lazy"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <h2>Build your needs <br> with Archmove</h2>
+                <div class="columns-wrapper a-center">
+                    <div class="col">
+                        <img src="./Assets/Section2.png" alt="Team working on a wooden table" loading="lazy">
+                    </div>
+                    <div class="col features">
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <img src="./Assets/guarantee-icon.svg" alt="Icon" loading='lazy'>
+                            </div>
+                            <div class="feature-text">
+                                <h3 class="feature-title">100% guaranteed project completion</h3>
+                                <p>Build safe, comfortable and transparent with a project management application with a joint account.</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <img src="./Assets/fees-icon.svg" alt="Icon" loading='lazy'>
+                            </div>
+                            <div class="feature-text">
+                                <h3 class="feature-title">No additional fees</h3>
+                                <p>There are no hidden costs. The value of the offer you get is the value you paid.</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <img src="./Assets/escort-icon.svg" alt="Icon" loading='lazy'>
+                            </div>
+                            <div class="feature-text">
+                                <h3 class="feature-title">Get escort from the Team</h3>
+                                <p>Monitor reports from the Arsitag team who check directly in the field.</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                            </div>
+                            <div class="feature-text">
+                                <a class="btn primary" href="#">FREE CONSULTATION</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonies">
+            <div class="container">
+                <h2>Sound Too Good <br> To Be True?</h2>
+                
+                <div class="columns-wrapper">
+                    <div class="col-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="58" height="41" viewBox="0 0 58 41" fill="none">
+                            <path d="M24.5312 0.992188C12.0859 2.89062 0.765625 12.1719 0.765625 25.3906C0.765625 34.5312 6.03906 40.7188 13.6328 40.7188C21.6484 40.7188 26.3594 33.8984 26.3594 25.5312C19.6797 25.25 15.1094 21.1016 15.1094 15.1953C15.1094 9.35938 19.5391 5.49219 25.6562 4.22656L24.5312 0.992188ZM55.9609 0.992188C43.5156 2.89062 32.1953 12.1719 32.1953 25.3906C32.1953 34.5312 37.4688 40.7188 45.0625 40.7188C53.0781 40.7188 57.7891 33.8984 57.7891 25.5312C51.1094 25.25 46.4688 21.1016 46.4688 15.1953C46.4688 9.35938 50.8984 5.49219 57.0156 4.22656L55.9609 0.992188Z" fill="#FD665E"/>
+                        </svg>
+                    </div>
+                    <div class="splide col-8" id="splide-section4">
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide">
+                                    <div class="testimony">
+                                        <p class="testimony-text p-lg">
+                                            We just wanted to thank you for this fantastic website! We are so grateful for being able to advertise our Petite cabin and receive feedback from people from all over the U.S. and even further.
+                                        </p>
+                                        <div class="testimony-foot">
+                                            <strong>Adam Morph</strong> &nbsp;—&nbsp; CEO Alfatech
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="splide__slide">
+                                    <div class="testimony">
+                                        <p class="testimony-text p-lg">
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                        </p>
+                                        <div class="testimony-foot">
+                                            <strong>Dummy Author</strong>&nbsp; — &nbsp; CEO Dummy
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <div class="splide__arrows splide__arrows--ltr">
+                            <button class="splide__arrow splide__arrow--prev" type="button" aria-label="Go to last slide" aria-controls="splide-section2-track">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" viewBox="0 0 16 14" fill="none">
+                                    <path d="M16 8V6H4L8 2L7 0L0 7L7 14L8 12L4 8H16Z" fill="currentColor"/>
+                                </svg>
+                            </button>
+                            <button class="splide__arrow splide__arrow--next" type="button" aria-label="Next slide" aria-controls="splide-section2-track">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" viewBox="0 0 16 14" fill="none">
+                                    <path d="M0 8V6H12L8 2L9 0L16 7L9 14L8 12L12 8H0Z" fill="currentColor"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="columns-wrapper a-center">
+                    <div class="col">
+                        <img src="./Assets/building-cta-section.png" alt="Rendered image of a building" loading="lazy">
+                    </div>
+                    <div class="col">
+                        <h2>Realize your dream <br>project with <strong>Archmove</strong></h2>
+                        <div class="cta-wrapper">
+                            <a class="btn primary" href="#">FREE CONSULTATION</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <h2>Our Partners</h2>
+                <div class="flex a-center j-center md-j-between wrap" style="gap: 24px;">
+                    <img src="./Assets/logo-1.png" alt="Partner logo" loading="lazy">
+                    <img src="./Assets/logo-2.png" alt="Partner logo" loading="lazy">
+                    <img src="./Assets/logo-3.png" alt="Partner logo" loading="lazy">
+                    <img src="./Assets/logo-4.png" alt="Partner logo" loading="lazy">
+                    <img src="./Assets/logo-5.png" alt="Partner logo" loading="lazy">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container flex a-center d-col-rev j-between md-d-row">
+            <nav>
+                <ul class="clean flex a-center d-col md-d-row" role="list" aria-label="Footer Navigation">
+                    <li><a class="menu-link" href="">About Us</a></li>
+                    <li><a class="menu-link" href="">How it Works</a></li>
+                    <li><a class="menu-link" href="">FAQ</a></li>
+                    <li><a class="menu-link" href="">Contact Us</a></li>
+                    <li><a class="menu-link" href="">Privacy Policy</a></li>
+                </ul>
+            </nav>
+            <a href="#"><img src="./Assets/logo-arch.svg" alt="Logo"></a>
+        </div>
+    </footer>
+
+    <div class="footer-foot">
+        <div class="container flex a-center j-center">
+            <p> 
+                Designed by <a href="https://nurpraditya.com/" target="_blank"><strong>Nur Praditya</strong></a> 
+                &nbsp; — &nbsp; <a href="https://dribbble.com/nurpraditya" target="_blank">Dribbble</a>
+            </p>
+        </div>
+    </div>
+    
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/js/splide.min.js" defer></script>
+<script src="/main.js"></script>
+
+</html>
