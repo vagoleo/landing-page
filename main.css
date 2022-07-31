@@ -1,8 +1,9 @@
 /* ================================================================= IMPORTS */
-@import url('http://fonts.cdnfonts.com/css/new-york-extra-large');
-@import url('http://fonts.cdnfonts.com/css/sf-ui-display');
+@import url('https://fonts.cdnfonts.com/css/new-york-extra-large');
+@import url('https://fonts.cdnfonts.com/css/sf-ui-display');
 
 /* ================================================================= SETUP */
+
 
 :root {
   --clr-primary-300: hsl(3, 98%, 78%);
