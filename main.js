@@ -32,4 +32,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
 })
 
-console.log('asd')
+console.log('Developed by Leo Vago')
