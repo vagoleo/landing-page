@@ -31,3 +31,5 @@ document.addEventListener('DOMContentLoaded', () => {
     }).mount();
 
 })
+
+console.log('asd')
